@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Editör</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="toolbar">
+            <div class="formatting">
+                <select id="fontSize" class="select">
+                    <option value="12">12px</option>
+                    <option value="14">14px</option>
+                    <option value="16" selected>16px</option>
+                    <option value="18">18px</option>
+                    <option value="20">20px</option>
+                    <option value="24">24px</option>
+                    <option value="28">28px</option>
+                    <option value="32">32px</option>
+                    <option value="34">34px</option>
+                    <option value="36">36px</option>
+                    <option value="38">38px</option>
+                    <option value="40">40px</option>
+                    <option value="42">42px</option>
+                    <option value="44">44px</option>
+                    <option value="46">46px</option>
+                    <option value="48">48px</option>
+                    <option value="50">50px</option>
+                    <option value="52">52px</option>
+                    <option value="54">54px</option>
+                    <option value="56">56px</option>
+                    <option value="58">58px</option>
+                    <option value="60">60px</option>
+                </select>
+                <div class="colors">
+                    <button class="color-btn" style="background-color: #FFFFFF" data-color="#FFFFFF" title="Beyaz"></button>
+                    <button class="color-btn" style="background-color: #00FF00" data-color="#00FF00" title="Neon Yeşil"></button>
+                    <button class="color-btn" style="background-color: #00FFFF" data-color="#00FFFF" title="Neon Turkuaz"></button>
+                    <button class="color-btn" style="background-color: #FF00FF" data-color="#FF00FF" title="Neon Pembe"></button>
+                    <button class="color-btn" style="background-color: #FFFF00" data-color="#FFFF00" title="Neon Sarı"></button>
+                    <button class="color-btn" style="background-color: #FF4500" data-color="#FF4500" title="Neon Turuncu"></button>
+                    <button class="color-btn" style="background-color: #FF0000" data-color="#FF0000" title="Neon Kırmızı"></button>
+                    <button class="color-btn" style="background-color: #00FF7F" data-color="#00FF7F" title="Neon Yeşil"></button>
+                    <button class="color-btn" style="background-color: #FF1493" data-color="#FF1493" title="Neon Pembe"></button>
+                    <button class="color-btn" style="background-color: #00BFFF" data-color="#00BFFF" title="Neon Mavi"></button>
+                    <button class="color-btn" style="background-color: #FFD700" data-color="#FFD700" title="Altın"></button>
+                    <button class="color-btn" style="background-color: #FF69B4" data-color="#FF69B4" title="Sıcak Pembe"></button>
+                </div>
+            </div>
+        </div>
+        <div class="page-container">
+            <div id="pages"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
